@@ -1,0 +1,237 @@
+body{
+      font-family: 'Caveat', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Titan One', cursive;
+}
+@media (max-width: 767px) {
+  
+    .container {
+    width: 400px;
+       margin: auto; 
+  }
+    
+}
+@media (min-width: 768px) {
+  .container {
+    width: 650px;
+       margin: auto; 
+  }
+    .hav{
+    
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+    
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+       margin: auto; 
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+       margin: auto; 
+      
+  }
+    
+    }
+
+.about{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background: #999;
+    
+}
+.about .parent{
+    
+}
+.about .parent .container{
+    
+}
+.about .parent .container h1{
+    color: red;
+    text-shadow: 2px 2px 2px blue;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.about .parent .container p{
+    margin-top: 0px;
+    text-shadow: .1px .1px .1px blue;
+    margin-bottom: 40px;
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    
+}
+.about .parent .container .content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+}
+@media(max-width:998px){
+    .about .parent .container .content{
+        display: grid;
+         grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+.about .parent .container .content h3{
+
+    letter-spacing: 2px;
+    font-size: 30px;
+        
+        color: #111177;
+    
+    font-size: 50px;
+    text-shadow: 2px 2px 2px white;
+    
+}
+.about .parent .container .content p{
+    font-size: 24px;
+    line-height:40px;
+}
+.about .parent .container .content i{
+    font-size: 50px;
+    color: blue;
+    margin: auto;
+    transition: 1s all;
+    
+   
+}
+.about .parent .container .content i:hover{
+    color: red
+}
+.about .parent .container .content .kind{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about .parent .container .info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+}
+@media(max-width:998px){
+    
+}
+.about .parent .container .info .working{
+    background: white;
+    margin-top: 150px;
+    transition: 1s all;
+    
+}
+.about .parent .container .info .working:hover{
+    margin-top: 0px;
+}
+.about .parent .container .info .working h2{
+    background: blue;
+    margin: 0px;
+    padding: 20px;
+    color: yellow;
+    text-shadow: 4px 6px 10px black;
+    letter-spacing: 5px;
+    
+}
+.about .parent .container .info .working hr{
+    width: 80%;
+    color: beige;
+}
+.about .parent .container .info .working p{
+    font-weight: 100;
+    color: cadetblue;
+    font-family: cursive;
+    padding-top: 30px
+}
+.about .parent .container .info .working a{
+    text-decoration: none;
+    
+    
+    
+    
+}
+.about .parent .container .info .working a h3{
+    padding: 40px;
+}
+.about .parent .container .info .working a p{
+    padding: 23px
+}
+.about .parent .container .info .working a:hover{
+    text-decoration: underline;
+}
+@media(max-width:998px){
+    .about .parent .container .info{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:50px;
+}
+    .about .parent .container .info .working{
+        opacity: .3
+    }
+    .about .parent .container .info .working:hover{
+        opacity: 1;
+    }
+    .nav{
+    background: url(../images/bodybuilding-barbell-biceps-exercises-fitness.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    
+    
+    
+}
+.nav .navbar{
+    background: rgba(0,0,0,.6);
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    
+}
+.nav .parent .container h1{
+        font-size: 60px;
+    color: red;
+    position: relative;
+    top: 306px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 4px 4px 5px silver;
+}
+.nav .parent .container p{
+      position: relative;
+    top: 306px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 4px 4px 5px black;
+    color: fuchsia;
+    font-size: 25px
+}
+.nav .navbar .container{
+    display: flex;
+    justify-content: space-between;
+    
+}.nav .navbar .container .logo{
+    
+}
+.nav .navbar .container .logo h1{
+    color: red;
+    text-shadow: 4px 4px 5px aliceblue ;
+    cursor: pointer;
+    font-size: 40px;
+    margin: 15px 0px;
+    
+}
+    .nav a{
+        font-size: 40px;
+        margin-left: 20px;
+        background: blue;
+        height: 56px;
+        width: 70px;
+        border-radius: 15px;
+        text-decoration: none;
+        color: aliceblue;
+    
+    }    
+    
