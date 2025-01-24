@@ -1,0 +1,475 @@
+/*start of standard*/
+@media (max-width: 767px) {
+  
+    .container {
+    width: 400px;
+       margin: auto; 
+  }
+    
+}
+@media (min-width: 768px) {
+  .container {
+    width: 650px;
+       margin: auto; 
+  }
+    .hav{
+    
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+    
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+       margin: auto; 
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+       margin: auto; 
+      
+  }
+    
+    }
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 20px;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/*end of standared*/
+
+/*start nav bar*/
+
+body{
+    margin: 0px;
+    min-height: 2000px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Shizuru', cursive;
+    font-family: 'Titan One', cursive;
+}
+
+
+/*Start navbar*/
+.nav{
+    background: url(../images/bodybuilding-barbell-biceps-exercises-fitness.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    
+    
+    
+}
+.nav .navbar{
+    background: rgba(0,0,0,.6);
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    
+}
+.nav .parent .container h1{
+        font-size: 60px;
+    color: red;
+    position: relative;
+    top: 306px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 4px 4px 5px silver;
+}
+.nav .parent .container p{
+      position: relative;
+    top: 306px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 4px 4px 5px black;
+    color: fuchsia;
+    font-size: 25px
+}
+.nav .navbar .container{
+    display: flex;
+    justify-content: space-between;
+    
+}.nav .navbar .container .logo{
+    
+}
+.nav .navbar .container .logo h1{
+    color: red;
+    text-shadow: 4px 4px 5px aliceblue ;
+    cursor: pointer;
+    font-size: 40px;
+    margin: 15px 0px;
+    
+}
+.nav .navbar .container ul{
+    list-style: none;
+    display: flex;
+    margin: revert;
+}
+.nav .navbar .container ul a{
+    color: red;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 15px;
+    background-color: black;
+    border-radius: 10px;
+    transition: .5s all;
+    font-size: 20px;
+    
+    
+}
+.nav .navbar .container ul a:hover{
+    background-color: red;
+    color: black;
+}
+
+/*End of nav bar*/
+/*Start section home*/
+
+.home{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #6061ef;
+    
+    
+}
+.home .parent{
+    
+}
+.home .parent .container{
+     display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:80px;
+    
+}
+.home .parent .men{
+    display: flex;
+    justify-content: space-around
+ 
+    
+}
+.home .parent .men img{
+    
+ width: 40%
+    
+}
+
+
+.home .parent .men button {
+    padding: 15px;
+    background-color: red;
+    font-size: 40px;
+    font-weight: 900;
+    border-radius: 8px;
+    margin: 50px auto auto;
+    text-shadow: 5px 5px 3px #707070;
+     transition: 1s all;
+    cursor: pointer;
+}
+.home .parent .men button:hover{
+color: #6061ef;
+    background: black;
+     text-shadow: 0px 0px 0px ;
+}
+.home .parent .men h3{
+margin: auto;
+   font-size: 60px;
+}
+.home .parent .ladeis{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.home .parent .ladeis h3{
+    margin: auto;
+   font-size: 60px;
+    
+}
+.home .parent .ladeis img{
+    width: 40%;
+}
+.home .parent .ladeis button{
+        padding: 15px;
+    background-color: red;
+    font-size: 40px;
+    font-weight: 900;
+    border-radius: 8px;
+    margin: 50px auto auto;
+    text-shadow: 5px 5px 3px #707070;
+    transition: 1s all;
+    cursor: pointer;
+    
+}
+.home .parent .ladeis button:hover{
+    color: #6061ef;
+    background: black;
+     text-shadow: 0px 0px 0px ;
+}
+
+
+/*End section home*/
+/*Start section feat*/
+
+.feat{
+    padding-top: 30px;
+    background: url(../images/bac.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.feat .parent{
+    
+}
+.feat .parent .container{
+    
+}
+.feat .parent .container .text{
+    width: 50%;
+}
+.feat .parent .container .text p{
+   color: #eee; 
+    font-size: 20px;
+}
+.feat .parent .container .text h3{
+    color:#111177;
+    margin: 0px 0px 0px 0px;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px white
+}
+.feat .parent .container .text h1{
+    color: red;
+    margin: 0px 0px 30px 0px;
+    font-size: 60px
+    
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.feat .parent .kinds{
+    padding-top: 50px;
+       display: grid;
+         grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    padding-bottom: 50px;
+    
+}
+.feat .parent .kinds p{
+    color: #eee;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px blue;
+}
+.feat .parent .kinds h3{
+    letter-spacing: 19px;
+   color: black;
+    
+    font-size: 50px;
+    text-shadow: 5px 5px 20px yellow;
+}
+.feat .parent .kinds .per-traning{
+    
+    padding-left: 20px;
+}
+.feat .parent .kinds .per-traning img{
+      width: 250px;
+    height: 250px;
+}
+.feat .parent .kinds .spa{
+    
+}
+.feat .parent .kinds .spa img{
+     width: 250px;
+    height: 250px;
+}
+.feat .parent .kinds .kids{
+    
+}
+.feat .parent .kinds .kids img{
+     width: 250px;
+    height: 250px;
+}
+
+/*End section feat*/
+/*STARS SEC ABOUT */
+
+.about{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background: #999;
+    
+}
+.about .parent{
+    
+}
+.about .parent .container{
+    
+}
+.about .parent .container h1{
+    color: red;
+    text-shadow: 2px 2px 2px blue;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.about .parent .container p{
+    margin-top: 0px;
+    text-shadow: .1px .1px .1px blue;
+    margin-bottom: 40px;
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    
+}
+.about .parent .container .content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+}
+@media(max-width:998px){
+    .about .parent .container .content{
+        display: grid;
+         grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+.about .parent .container .content h3{
+
+    letter-spacing: 2px;
+    font-size: 30px;
+        
+        color: #111177;
+    
+    font-size: 50px;
+    text-shadow: 2px 2px 2px white;
+    
+}
+.about .parent .container .content p{
+    font-size: 24px;
+    line-height:40px;
+}
+.about .parent .container .content i{
+    font-size: 50px;
+    color: blue;
+    margin: auto;
+    transition: 1s all;
+    
+   
+}
+.about .parent .container .content i:hover{
+    color: red
+}
+.about .parent .container .content .kind{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.about .parent .container .info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+}
+@media(max-width:998px){
+    
+}
+.about .parent .container .info .working{
+    background: white;
+    margin-top: 150px;
+    transition: 1s all;
+    
+}
+.about .parent .container .info .working:hover{
+    margin-top: 0px;
+}
+.about .parent .container .info .working h2{
+    background: blue;
+    margin: 0px;
+    padding: 20px;
+    color: yellow;
+    text-shadow: 4px 6px 10px black;
+    letter-spacing: 5px;
+    
+}
+.about .parent .container .info .working hr{
+    width: 80%;
+    color: beige;
+}
+.about .parent .container .info .working p{
+    font-weight: 100;
+    color: cadetblue;
+    font-family: cursive;
+    padding-top: 30px
+}
+.about .parent .container .info .working a{
+    text-decoration: none;
+    
+    
+    
+    
+}
+.about .parent .container .info .working a h3{
+    padding: 40px;
+}
+.about .parent .container .info .working a p{
+    padding: 23px
+}
+.about .parent .container .info .working a:hover{
+    text-decoration: underline;
+}
+@media(max-width:998px){
+    .about .parent .container .info{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:50px;
+}
+    .about .parent .container .info .working{
+        opacity: .3
+    }
+    .about .parent .container .info .working:hover{
+        opacity: 1;
+    }
+    .feat .parent .kinds{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .feat .parent .kinds .per-traning{
+        margin-bottom: 70px;
+        padding-left: 20px;
+    }
+    .feat .parent .kinds .spa{
+        margin-bottom: 70px;
+        padding-left: 20px;
+    }
+    .feat .parent .kinds .kids {
+        padding-left: 20px;
+        margin-bottom: 70px;
+}
+    .feat .parent .kinds .kids img{
+        width:600px ; 
+        height:600px ;    
+    }
+    .feat .parent .kinds .spa img {
+        width:600px ; 
+        height:600px ;  
+}
+    .feat .parent .kinds .per-traning img {
+        width:600px ; 
+        height:600px ;  
+}
+    
+    
+}
+.map{
+    max-width: 100%;
+    
+}
+
+/*END SEC ABOUT */
